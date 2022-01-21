@@ -4,18 +4,20 @@ quay.io:
       - v1.4.1
       - latest
 
-arti.dev.cray.com/internal-docker-stable-local:
-  images:
-    packaging-tools: # Provides various packaging tools
-      - 0.11.0
-    rpm-tools: # Provides createrepo and reposync tools
-      - 1.0.0
+# The next two blocks removed due to no access and hence things
+# break.
+#arti.dev.cray.com/internal-docker-stable-local:
+#  images:
+#    packaging-tools: # Provides various packaging tools
+#      - 0.11.0
+#    rpm-tools: # Provides createrepo and reposync tools
+#      - 1.0.0
 
 # XXX Not sure if this is used in a chart or only facilitates backup/recovery
-arti.dev.cray.com/analytics-docker-stable-local:
-  images:
-    pvc-migrator:
-      - 0.1.0
+#arti.dev.cray.com/analytics-docker-stable-local:
+#  images:
+#    pvc-migrator:
+#      - 0.1.0
 
 artifactory.algol60.net/csm-docker/stable:
   images:
